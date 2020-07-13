@@ -79,11 +79,13 @@ namespace Pivotsample
 
         private void Expand_Click(object sender, RoutedEventArgs e)
         {
+            //Expand all nodes in rows and columns
             pivotGrid.ExpandAllGroup();
         }
 
         private void Collapse_Click(object sender, RoutedEventArgs e)
         {
+            //Collapse all nodes in rows and columns
             pivotGrid.CollapseAllGroup();
         }
     }
