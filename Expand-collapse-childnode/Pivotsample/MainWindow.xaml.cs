@@ -30,7 +30,6 @@ namespace Pivotsample
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            pivotGrid.Loaded += PivotGrid_Loaded;
             PivotItem m_PivotItem = new PivotItem()
             {
                 FieldHeader = "Product",
@@ -78,10 +77,14 @@ namespace Pivotsample
             pivotGrid.ItemSource = ProductSales.GetSalesData();
         }
 
-        private void PivotGrid_Loaded(object sender, RoutedEventArgs e)
+        private void Expand_Click(object sender, RoutedEventArgs e)
         {
-            //Expand all child nodes in rows and columns
             pivotGrid.ExpandAllGroup();
+        }
+
+        private void Collapse_Click(object sender, RoutedEventArgs e)
+        {
+            pivotGrid.CollapseAllGroup();
         }
     }
     public class ProductSales

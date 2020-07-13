@@ -9,7 +9,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Name="grid1">
-
-        <syncfusion:PivotGridControl Name="pivotGrid" HorizontalAlignment="Left" VerticalAlignment="Top" skin:SfSkinManager.VisualStyle="Office2016Colorful" />
+        <syncfusion:PivotGridControl Name="pivotGrid" HorizontalAlignment="Center" Margin="0,0,0,40" VerticalAlignment="Center" skin:SfSkinManager.VisualStyle="Office2016Colorful" />
+        <Button Content="Expand" Name="Expand" HorizontalAlignment="Center" Margin="201,379,0,0" Click="Expand_Click" VerticalAlignment="Center" Width="75" skin:SfSkinManager.VisualStyle="Office2016Colorful"/>
+        <Button Content="Collapse" Name="Collapse" HorizontalAlignment="Center" Margin="10,379,110,0" Click="Collapse_Click" VerticalAlignment="Center" Width="75" skin:SfSkinManager.VisualStyle="Office2016Colorful"/>
     </Grid>
 </Window>
