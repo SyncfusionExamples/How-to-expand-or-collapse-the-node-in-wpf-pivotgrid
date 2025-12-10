@@ -1,8 +1,8 @@
-# How to expand or collapse WPF PivotGrid
+# How to Expand or Collapse WPF PivotGrid?
 
 This session describes how to expand or collapse [WPF PivotGrid](https://www.syncfusion.com/wpf-controls/pivot-grid).
 
-You can expand or collapse all nodes in both rows and columns of the WPF PivotGrid control by using [ExpandAllGroup](https://help.syncfusion.com/cr/wpf/Syncfusion.Windows.Controls.PivotGrid.PivotGridControl.html#Syncfusion_Windows_Controls_PivotGrid_PivotGridControl_ExpandAllGroup) or [CollapseAllGroup](https://help.syncfusion.com/cr/wpf/Syncfusion.Windows.Controls.PivotGrid.PivotGridControl.html#Syncfusion_Windows_Controls_PivotGrid_PivotGridControl_CollapseAllGroup) method.
+You can expand or collapse all nodes in both rows and columns of the PivotGrid control by using [ExpandAllGroup](https://help.syncfusion.com/cr/wpf/Syncfusion.Windows.Controls.PivotGrid.PivotGridControl.html#Syncfusion_Windows_Controls_PivotGrid_PivotGridControl_ExpandAllGroup) or [CollapseAllGroup](https://help.syncfusion.com/cr/wpf/Syncfusion.Windows.Controls.PivotGrid.PivotGridControl.html#Syncfusion_Windows_Controls_PivotGrid_PivotGridControl_CollapseAllGroup) method.
 
 Refer the below code for your reference.
 
@@ -46,4 +46,4 @@ private void Collapse_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-![](https://www.syncfusion.com/uploads/user/kb/wpf/wpf-45299/wpf-45299_img1.png)
+![Expanding and collapsing Pivot using Button click](CollapseAndExpandingPivotGrid.png)
